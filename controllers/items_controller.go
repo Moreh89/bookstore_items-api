@@ -3,7 +3,7 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/Moreh89/bookstore_items-api/services"
+	"github.com/moreh89/bookstore_items-api/services"
 )
 
 func Create(w http.ResponseWriter, r *http.Request) {
@@ -20,7 +20,7 @@ func Create(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	fmt.Println(result)
-	
+
 }
 
 func Get() (w http.ResponseWriter, r *http.Request) {

@@ -3,8 +3,8 @@ package services
 import (
 	"net/http"
 
-	"github.com/Moreh89/bookstore_items-api/domain/items"
-	"github.com/Moreh89/bookstore_items-api/utils/errors"
+	"github.com/moreh89/bookstore_items-api/domain/items"
+	"github.com/moreh89/bookstore_items-api/utils/errors"
 )
 
 var (
